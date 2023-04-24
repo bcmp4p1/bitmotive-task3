@@ -1,0 +1,119 @@
+.page {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #3e3e3e;
+    scroll-behavior: smooth;
+}
+.page__body {
+    margin: 0;
+}
+
+.page__section {
+    margin-bottom: 104px;
+}
+.page__section-title {
+    margin-bottom: 56px;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -1.5px;
+    color: #000;
+}
+.page__section-title:after {
+    content: "";
+    display: block;
+    width: 23px;
+    height: 16px;
+    margin: 4px auto 0;
+    background-image: url(../images/crown.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1020px;
+    padding: 0 40px;
+}
+
+.header {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/header.jpg);
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 24px 0 80px;
+}
+.header__title {
+    font-weight: bold;
+    color: #fff;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -1.5px;
+}
+.header__title:before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 0 24px;
+}
+.about__title {
+    font-weight: bold;
+    align-items: center;
+    letter-spacing: -1.5px;
+    color: #000;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.about__paragraph {
+    margin: 0 0 27px;
+}
+
+.gallery__place {
+    margin-bottom: 40px;
+}
+.gallery__place:last-child {
+    margin-bottom: 32px;
+}
+.place {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.place__photo {
+    width: 700px;
+    height: 500px;
+}
+
+.must {
+    margin-bottom: 100px;
+}
+
+.see {
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    background-image: url(../images/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+    padding-bottom: 36px;
+}
